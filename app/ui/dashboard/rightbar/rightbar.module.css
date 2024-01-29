@@ -1,0 +1,42 @@
+.container{
+position:fixed;
+}
+.item{
+    position: relative;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.bgContainer{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 0;
+    right: 0;
+}
+.bg{
+    object-fit: contain;
+    opacity: 0.2;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--textSoft);
+}
+.button{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #5d57c9;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+}
